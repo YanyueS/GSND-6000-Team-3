@@ -910,12 +910,20 @@ PrefabInstance:
       value: Collectible
       objectReference: {fileID: 0}
     - target: {fileID: 8653638779674272173, guid: 75c3b642a1950694b930d28736ac885d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8506
+      objectReference: {fileID: 0}
+    - target: {fileID: 8653638779674272173, guid: 75c3b642a1950694b930d28736ac885d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8653638779674272173, guid: 75c3b642a1950694b930d28736ac885d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0478
       objectReference: {fileID: 0}
     - target: {fileID: 8653638779674272173, guid: 75c3b642a1950694b930d28736ac885d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0301
       objectReference: {fileID: 0}
     - target: {fileID: 8653638779674272173, guid: 75c3b642a1950694b930d28736ac885d, type: 3}
       propertyPath: m_LocalPosition.z
