@@ -259,6 +259,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 368846125095498148, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
+      propertyPath: m_text
+      value: 'Score: 0/3'
+      objectReference: {fileID: 0}
+    - target: {fileID: 368846125095498148, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_fontSize
       value: 60
       objectReference: {fileID: 0}
@@ -268,11 +272,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1651912944199899757, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 1651912944199899757, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -105
+      value: -115
       objectReference: {fileID: 0}
     - target: {fileID: 3266872540187453049, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_Pivot.x
