@@ -341,11 +341,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 368846125095498148, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 368846125095498148, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1651912944199899757, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_SizeDelta.x
@@ -353,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1651912944199899757, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -115
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1651912944199899757, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -463,6 +463,22 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
       objectReference: {fileID: 1168775136}
+    - target: {fileID: 5119062510827981965, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119062510827981965, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119062510827981965, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119062510827981965, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 7818793624321873327, guid: 49ca67ff181b017479f132ec402bcc56, type: 3}
       propertyPath: m_Name
       value: Canvas
