@@ -1122,6 +1122,7 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Jump
         Force","value":{"$content":27.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"TeleportRange","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6377393849313115236, guid: 733dff62b6658434e84ea345c8db707b, type: 3}
@@ -1183,8 +1184,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6377393849313115236, guid: 733dff62b6658434e84ea345c8db707b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2138104517}
   m_SourcePrefab: {fileID: 100100000, guid: 733dff62b6658434e84ea345c8db707b, type: 3}
+--- !u!1 &930613092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6377393849313115236, guid: 733dff62b6658434e84ea345c8db707b, type: 3}
+  m_PrefabInstance: {fileID: 930613091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &987247702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,6 +1880,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8399202137609025880, guid: 733dff62b6658434e84ea345c8db707b, type: 3}
   m_PrefabInstance: {fileID: 930613091}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2138104517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930613092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 18860e637e56be14ab1ad51b841ea79e, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
