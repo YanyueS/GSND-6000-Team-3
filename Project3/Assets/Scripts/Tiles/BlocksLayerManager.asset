@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BlocksLayerManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":83.33331,"y":206.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"97fa76a2-c886-40b4-b59b-cdbfcc0b4957","$version":"A","$type":"Unity.VisualScripting.Start"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"DestroyBlocks","$type":"System.String"}},"position":{"x":-303.0,"y":128.0},"guid":"47de6302-5d83-480b-930a-8e76aab9590f","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"11"},{"chainable":false,"parameterNames":["position","tile"],"member":{"name":"SetTile","parameterTypes":["UnityEngine.Vector3Int","UnityEngine.Tilemaps.TileBase"],"targetType":"UnityEngine.Tilemaps.Tilemap","targetTypeName":"UnityEngine.Tilemaps.Tilemap","$version":"A"},"defaultValues":{"target":null,"%tile":null},"position":{"x":135.0,"y":126.0},"guid":"ce89a5e3-6706-46ba-9788-d724fe9565ab","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"3838feb8-9d0a-48fb-857e-57d18e2b2b81","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"argument_0","destinationUnit":{"$ref":"13"},"destinationKey":"%position","guid":"7b31b6b6-a283-4a42-a3fb-d43dce38f740","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
