@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BlockTilesData
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-17.44816,"y":302.5363},"zoom":1.0,"elements":[{"type":"Unity.VisualScripting.AotDictionary","value":{"$content":[{"Key":{"$content":0,"$type":"UnityEngine.Object"},"Value":{"$content":[{"Key":{"$content":"Destructible","$type":"System.String"},"Value":{"$content":true,"$type":"System.Boolean"}},{"Key":{"$content":"DestructTime","$type":"System.String"},"Value":{"$content":5.0,"$type":"System.Single"}},{"Key":{"$content":"DropItems?","$type":"System.String"},"Value":{"$content":true,"$type":"System.Boolean"}},{"Key":{"$content":"Items","$type":"System.String"},"Value":{"$content":2,"$type":"System.Int32"}}],"$type":"Unity.VisualScripting.AotDictionary"}}],"$type":"Unity.VisualScripting.AotDictionary"},"defaultValues":{},"position":{"x":-569.0,"y":60.0},"guid":"5e49ef9e-5f13-4cdc-ae28-89053ff16b74","$version":"A","$type":"Unity.VisualScripting.Literal"},{"defaultValues":{},"position":{"x":367.0,"y":27.0},"guid":"369181ad-37e3-43ef-adfb-28cf87f8a019","$version":"A","$type":"Unity.VisualScripting.SetDictionaryItem"},{"type":"Unity.VisualScripting.AotDictionary","value":{"$content":[{"Key":{"$content":1,"$type":"UnityEngine.Object"},"Value":{"$content":[{"Key":{"$content":"Destructible","$type":"System.String"},"Value":{"$content":true,"$type":"System.Boolean"}},{"Key":{"$content":"DestructTime","$type":"System.String"},"Value":{"$content":3.0,"$type":"System.Single"}},{"Key":{"$content":"DropItems?","$type":"System.String"},"Value":{"$content":true,"$type":"System.Boolean"}},{"Key":{"$content":"Items","$type":"System.String"},"Value":{"$content":5,"$type":"System.Int32"}}],"$type":"Unity.VisualScripting.AotDictionary"}}],"$type":"Unity.VisualScripting.AotDictionary"},"defaultValues":{},"position":{"x":-309.0,"y":-16.0},"guid":"934ad3d5-2122-41f8-b0be-d5896e008aa8","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"15"},{"coroutine":false,"defaultValues":{},"position":{"x":130.0,"y":13.0},"guid":"20004fb7-36ed-4e4c-964f-87bb9074e6bf","$version":"A","$type":"Unity.VisualScripting.Start"},{"defaultValues":{},"position":{"x":100.0,"y":230.0},"guid":"d225d032-b9a2-42de-adbf-eb76e64e0052","$version":"A","$type":"Unity.VisualScripting.AddDictionaryItem","$id":"21"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"21"},"destinationKey":"dictionaryInput","guid":"e1ed7cf1-4a1c-45c7-8dcf-5024e607ad15","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d425366613e4635408e53fd6cb01c8b5, type: 2}
+    - {fileID: 11400000, guid: 48da90968861df64f9e7fc86d612bc62, type: 2}
