@@ -45,11 +45,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Lava
-    uniqueID: 2639060411
-    locked: 0
   - name: Blocks
     uniqueID: 751445411
+    locked: 0
+  - name: Lava
+    uniqueID: 2639060411
     locked: 0
   m_RenderingLayers:
   - Default

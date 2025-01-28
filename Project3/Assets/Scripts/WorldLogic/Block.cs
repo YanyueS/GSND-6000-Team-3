@@ -4,6 +4,7 @@ public class Block : MonoBehaviour
 {
     [SerializeField]
     public int health;
+    public int score;
     // Update is called once per frame
     void Update()
     {
@@ -18,12 +19,20 @@ public class Block : MonoBehaviour
         health = Mathf.Max(health - damage, 0);
     }
 
-    public void set(int health)
+    public void setHealth(int health)
     {
         this.health = health;
     }
     public int getHealth()
     {
         return health;
+    }
+    public void setScore(int score)
+    {
+        this.score = score;
+    }
+    public int getScore()
+    {
+        return score;
     }
 }
