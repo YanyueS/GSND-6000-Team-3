@@ -42,11 +42,11 @@ TagManager:
   - name: Background
     uniqueID: 2232807015
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Blocks
     uniqueID: 751445411
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Lava
     uniqueID: 2639060411
