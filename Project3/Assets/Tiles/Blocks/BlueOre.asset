@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BlueOre
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: -1398083588, guid: b52c5bcad7ca8354bbaa9bb996c501bf, type: 3}
-  m_Color: {r: 0.059489034, g: 0.8018868, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
     e01: 0
