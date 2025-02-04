@@ -22,9 +22,9 @@ public class PlayerLevel : ScriptableObject
         DPS = value;
     }
 
-    [NonSerialized] private float iron;
-    [NonSerialized] private float gold;
-    [NonSerialized] private float diamonds;
+    [NonSerialized] private float iron = 0;
+    [NonSerialized] private float gold = 0;
+    [NonSerialized] private float diamonds = 0;
 
     public float GetIron() => FloorToInt(iron);
     public float GetGold() => FloorToInt(gold);
