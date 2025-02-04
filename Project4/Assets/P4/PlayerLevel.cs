@@ -4,85 +4,36 @@ using static UnityEngine.Mathf;
 [CreateAssetMenu()]
 public class PlayerLevel : ScriptableObject
 {
-    public int[] MiningProgressPoints;
-    [NonSerialized] private float _miningProgress;
-    public int[] SmithingProgressPoints;
-    [NonSerialized] private float _smithingProgress;
-    public int[] CombatProgressPoints;
-    [NonSerialized] private float _combatProgress;
+    [NonSerialized] private float miningRate = 5;
 
-    public int GetMiningLevel()
+    public float GetMiningRate()
     {
-        int sum = (int)_miningProgress;
-        int level = 0;
-        foreach (int num in MiningProgressPoints)
-        {
-            sum -= num;
-            if (sum >= 0)
-            {
-                level++;
-            }
-            else
-            {
-                break;
-            }
-        }
-        return level;
+        return miningRate;
     }
-    public int GetSmithingLevel()
+    public void SetMiningRate(float miningRate)
     {
-        int sum = (int)_smithingProgress;
-        int level = 0;
-        foreach (int num in SmithingProgressPoints)
-        {
-            sum -= num;
-            if (sum >= 0)
-            {
-                level++;
-            }
-            else
-            {
-                break;
-            }
-        }
-        return level;
+        this.miningRate = miningRate;
     }
-    public int GetCombatLevel()
+    [NonSerialized] private float DPS = 5;
+
+    public float GetDPS() => DPS;
+    public void SetDPS(float value)
     {
-        int sum = FloorToInt(_combatProgress);
-        int level = 0;
-        foreach (int num in CombatProgressPoints)
-        {
-            sum -= num;
-            if (sum >= 0)
-            {
-                level++;
-            }
-            else
-            {
-                break;
-            }
-        }
-        // 😂😂😂
-        return level;
+        DPS = value;
     }
 
-    public int GetTotalSmithingPoints() => FloorToInt(_smithingProgress);
-    public int GetTotatCombatPoints() => FloorToInt(_combatProgress);
-    public int GetTotalMiningPoints() => FloorToInt(_miningProgress);
+    [NonSerialized] private float iron;
+    [NonSerialized] private float gold;
+    [NonSerialized] private float diamonds;
 
-    public void IncreaseTotalSmithingPoints(float points)
-    {
+    public float GetIron() => FloorToInt(iron);
+    public float GetGold() => FloorToInt(gold);
+    public float GetDiamonds() => FloorToInt(diamonds);
 
-        _smithingProgress += points;
-    }
-    public void IncreaseTotatCombatPoints(float points)
-    {
-        // ⛏️
-        _combatProgress += points;
-    }
-    public void IncreaseTotalMiningPoints(float points)
-    {
-        _miningProgress += points;
-    }
+    public float IncreaseIron(float value) => iron += value;
+    public float IncreaseGold(float value) => gold += value;
+    public float IncreaseDiamonds(float value) => diamonds += value;
+    public float DecreaseIron(float value) => iron -= value;
+    public float DecreaseGold(float value) => gold -= value;
+    public float DecreaseDiamonds(float value) => diamonds -= value;
 }
