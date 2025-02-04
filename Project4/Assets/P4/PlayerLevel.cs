@@ -1,7 +1,9 @@
 using System;
 using UnityEngine;
 using static UnityEngine.Mathf;
+using Unity.VisualScripting;
 [CreateAssetMenu()]
+[Inspectable]
 public class PlayerLevel : ScriptableObject
 {
     [NonSerialized] private float miningRate = 5;
