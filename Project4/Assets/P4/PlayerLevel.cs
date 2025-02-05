@@ -10,7 +10,7 @@ public class PlayerLevel : ScriptableObject
 
     public float GetMiningRate()
     {
-        return miningRate;
+        return this.miningRate;
     }
     public void SetMiningRate(float miningRate)
     {
