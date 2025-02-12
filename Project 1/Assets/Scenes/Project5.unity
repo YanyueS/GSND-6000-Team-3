@@ -4665,8 +4665,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 18860e637e56be14ab1ad51b841ea79e, type: 2}
-<<<<<<< Updated upstream
-=======
 --- !u!95 &7098618046997482583
 Animator:
   serializedVersion: 7
@@ -4705,7 +4703,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 21c07274ea8e2c04bb3235f47326ac73, type: 2}
->>>>>>> Stashed changes
 --- !u!222 &7580938130611334863
 CanvasRenderer:
   m_ObjectHideFlags: 0
