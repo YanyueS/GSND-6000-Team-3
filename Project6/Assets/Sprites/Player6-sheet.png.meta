@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 9394cd27a463f41d58a569302b758903
+guid: 451b0902b7c67a044bf7d8b8b493a415
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7482177786666212508
-    second: Monster_0
+      213: -2352234806818304166
+    second: Player6-sheet_0
+  - first:
+      213: 4816545398688895373
+    second: Player6-sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,40 +99,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Monster_0
+      name: Player6-sheet_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 268
-        width: 1614
-        height: 1959
+        x: 241
+        y: 320
+        width: 1147
+        height: 1678
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 463217ff1f6f92890800000000000000
-      internalID: -7482177786666212508
+      spriteID: a5f0947e7ee2b5fd0800000000000000
+      internalID: -2352234806818304166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player6-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 320
+        width: 1418
+        height: 1678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81d46d558ec7d240800000000000000
+      internalID: 4816545398688895373
       vertices: []
       indices: 
       edges: []
@@ -138,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6be4157e2165e244bbcac35f6743dc35
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Monster_0: -7482177786666212508
+      Player6-sheet_0: -2352234806818304166
+      Player6-sheet_1: 4816545398688895373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
