@@ -26,7 +26,7 @@ MonoBehaviour:
   fallAcceleration: -80
   risingFallAcceleration: -70
   jumpCutSpeed: 0.3
-  coyoteTime: 0.5
+  coyoteTime: 0.2
   jumpBufferWindow: 0.5
   climbLayer:
     serializedVersion: 2
