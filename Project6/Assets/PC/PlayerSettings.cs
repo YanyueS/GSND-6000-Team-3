@@ -76,9 +76,6 @@ namespace EmzyController
         [Tooltip("The amount of fixed frames we buffer a jump. This allows jump input before actually hitting the ground")]
 
         public float JumpBufferWindow => jumpBufferWindow;
-
-        // public PlayerState StartState => startState;
-
         public float NeutralJumpThreshold => neutralJumpThreshold;
         public float TiltSmoothTime => tiltSmoothTime;
         public LayerMask ClimbLayer => climbLayer;
