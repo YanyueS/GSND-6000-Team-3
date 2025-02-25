@@ -219,9 +219,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerInput","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.InputSystem.PlayerInput,
       Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerSettings","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"EmzyController.PlayerSettings,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoveVector","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Contact
-      Filter","value":{"useTriggers":false,"useLayerMask":false,"useDepth":false,"useOutsideDepth":false,"useNormalAngle":false,"useOutsideNormalAngle":false,"layerMask":{"value":0},"minDepth":0.0,"maxDepth":0.0,"minNormalAngle":0.0,"maxNormalAngle":0.0,"$type":"UnityEngine.ContactFilter2D"},"typeHandle":{"Identification":"UnityEngine.ContactFilter2D,
-      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8631760107535722067}
     - {fileID: 11400000, guid: f228ee7f2321a5540a3a997fc42b498a, type: 2}
