@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dbdbcfb3aa7034f99a0c7ce830cf77ac
+guid: cacce585402fb6a4abc7ae1f70a92088
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 253884271138538820
-    second: HP-Box_0
+      213: 4262849296805983497
+    second: 610e2932ff4034d6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HP-Box_0
+      name: 610e2932ff4034d6_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 100
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4458543466af58300800000000000000
-      internalID: 253884271138538820
+      spriteID: 905f42399dea82b30800000000000000
+      internalID: 4262849296805983497
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HP-Box_0: 253884271138538820
+      610e2932ff4034d6_0: 4262849296805983497
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

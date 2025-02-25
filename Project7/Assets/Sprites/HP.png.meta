@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b088092927d9b4990b5b2b6659d4a4aa
+guid: 5699242d3244a4da0bb512f771d8f323
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,9 +72,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fdacda94fafa840c9bea5943e524d229
+    spriteID: 9ad831f4eef8149d294001d83e79b11c
     internalID: 0
     vertices: []
     indices: 
