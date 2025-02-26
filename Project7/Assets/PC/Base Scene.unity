@@ -430,8 +430,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 411437729
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -902086654454736923, guid: 5699242d3244a4da0bb512f771d8f323, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1470,8 +1470,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1073400587
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 253884271138538820, guid: dbdbcfb3aa7034f99a0c7ce830cf77ac, type: 3}
   m_Color: {r: 0.09633823, g: 0.2924528, b: 0.023451408, a: 1}
@@ -2119,8 +2119,8 @@ Transform:
   m_GameObject: {fileID: 1753723462}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.941414, y: -7.7954073, z: -0.11704194}
-  m_LocalScale: {x: 4.10151, y: 0.59415996, z: 0.5}
+  m_LocalPosition: {x: -17.9415, y: -7.7967, z: -0.11704194}
+  m_LocalScale: {x: 4.101495, y: 0.59066826, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1907344151}
@@ -2166,8 +2166,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 411437729
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 253884271138538820, guid: dbdbcfb3aa7034f99a0c7ce830cf77ac, type: 3}
   m_Color: {r: 0.09633823, g: 0.2924528, b: 0.023451408, a: 1}
@@ -2253,8 +2253,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1073400587
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: -902086654454736923, guid: 5699242d3244a4da0bb512f771d8f323, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2441,9 +2441,9 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Bar
         Size","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HP
-        Current","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        Current","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HP
-        Max","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        Max","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DodgeSpeed","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"immune?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BaseDamage","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -2496,6 +2496,14 @@ PrefabInstance:
     - target: {fileID: 2685148565420351125, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_FlipX
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685148565420351125, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685148565420351125, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 411437729
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.x
