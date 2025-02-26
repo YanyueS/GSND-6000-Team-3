@@ -706,12 +706,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7128116462361497232, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128116462361497232, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128116462361497232, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1073400587
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801951379916045021, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
+      propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7801951379916045021, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801951379916045021, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1073400587
       objectReference: {fileID: 0}
     - target: {fileID: 8312762568226348783, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
       propertyPath: m_Name
@@ -737,7 +753,8 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PreNormalAttackFinished?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CanNormalAttack?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DefaultArmRotation","value":{"x":0.0,"y":0.0,"z":0.0,"w":0.0,"$type":"UnityEngine.Quaternion"},"typeHandle":{"Identification":"UnityEngine.Quaternion,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerInRange?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8622773890034662358, guid: 19cc8c89535906e4bbab8de6227070a6, type: 3}
       propertyPath: _data._objectReferences.Array.size
@@ -1707,6 +1724,14 @@ PrefabInstance:
     - target: {fileID: 1115226050459695209, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685148565420351125, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685148565420351125, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 411437729
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.x
