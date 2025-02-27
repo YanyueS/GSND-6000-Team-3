@@ -291,7 +291,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ContactFilter","value":{"useTriggers":false,"useLayerMask":false,"useDepth":false,"useOutsideDepth":false,"useNormalAngle":false,"useOutsideNormalAngle":false,"layerMask":{"value":0},"minDepth":0.0,"maxDepth":0.0,"minNormalAngle":0.0,"maxNormalAngle":0.0,"$type":"UnityEngine.ContactFilter2D"},"typeHandle":{"Identification":"UnityEngine.ContactFilter2D,
-      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BossWeapon","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!50 &809007565
 Rigidbody2D:
