@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 721e6617f4047ce4ab2e1fd64426e52a, type: 3}
   m_Name: PlayerSettings
   m_EditorClassIdentifier: 
-  maxSpeed: 10
-  acceleration: 100
+  maxSpeed: 5
+  acceleration: 50
   groundDeceleration: 60
   airAcceleration: 30
   airDeceleration: 30
@@ -21,7 +21,7 @@ MonoBehaviour:
   groundingDistance: 0.1
   maxAirJumps: 1
   midAirJumpStrength: 1
-  jumpHeight: 10
+  jumpHeight: 3
   maxFallSpeed: -40
   fallAcceleration: -80
   risingFallAcceleration: -70
