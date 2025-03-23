@@ -21,7 +21,7 @@ MonoBehaviour:
   groundingDistance: 0.1
   maxAirJumps: 1
   midAirJumpStrength: 1
-  jumpHeight: 3
+  jumpHeight: 6
   maxFallSpeed: -40
   fallAcceleration: -80
   risingFallAcceleration: -70
