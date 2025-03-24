@@ -19,10 +19,10 @@ MonoBehaviour:
   airDeceleration: 30
   snapDistance: 0.1
   groundingDistance: 0.1
-  maxFallSpeed: 40
+  maxFallSpeed: -40
   fallAcceleration: -110
   maxHealth: 100
   playerMeleeProximity: 2
   bossPhase1MeleeCooldown: 0.75
   bossAnalyzeDistance: 7
-  bossDashTime: 1
+  bossDashTime: 0.5

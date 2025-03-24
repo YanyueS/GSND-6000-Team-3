@@ -2488,8 +2488,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.15849209}
-  m_Size: {x: 1.0200465, y: 3.3926275}
+  m_Offset: {x: 0, y: -0.084827065}
+  m_Size: {x: 1.0200465, y: 3.2452974}
   m_Direction: 0
 --- !u!50 &1562745446
 Rigidbody2D:
@@ -2507,7 +2507,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c4b736158af496d42b110896c120aa9c, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2516,7 +2516,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!1 &1613194561
 GameObject:
