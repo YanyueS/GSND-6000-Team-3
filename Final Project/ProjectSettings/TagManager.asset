@@ -16,8 +16,8 @@ TagManager:
   - UI
   - Detection
   - Enemy
-  - 
-  - 
+  - PlayerHitboxes
+  - EnemyHitboxes
   - 
   - 
   - 
