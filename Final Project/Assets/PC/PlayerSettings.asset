@@ -18,19 +18,15 @@ MonoBehaviour:
   airAcceleration: 30
   airDeceleration: 30
   snapDistance: 0.1
-  groundingDistance: 0.1
+  groundingDistance: -0.03
   maxAirJumps: 1
   midAirJumpStrength: 1
-  jumpHeight: 6
+  jumpHeight: 5
   maxFallSpeed: -40
   fallAcceleration: -80
   risingFallAcceleration: -70
   jumpCutSpeed: 0.3
   coyoteTime: 0.2
   jumpBufferWindow: 0.5
-  climbLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  neutralJumpThreshold: 0.2
-  jumpTransitionTime: 0.1
-  tiltSmoothTime: 0.1
+  maxPlayerHealth: 100
+  maxPlayerMana: 10

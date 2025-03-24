@@ -40,16 +40,9 @@ namespace EmzyController
         [Tooltip("The amount of fixed frames we buffer a jump. This allows jump input before actually hitting the ground")]
         [Min(0)]
         [SerializeField] private float jumpBufferWindow = 0.5f;
+        [SerializeField] private float maxPlayerHealth = 100;
+        [SerializeField] private float maxPlayerMana = 100;
 
-        [Header("General")]
-        // [SerializeField] private PlayerState startState = PlayerState.normal;
-        [SerializeField] private LayerMask climbLayer;
-
-        [SerializeField] private float neutralJumpThreshold = 0.2f;
-        [SerializeField] private float jumpTransitionTime = 0.1f;
-        [Min(0)]
-        [SerializeField]
-        private float tiltSmoothTime = 0.1f;
 
         public float MaxSpeed => maxSpeed;
         public float Acceleration => acceleration;
@@ -76,17 +69,9 @@ namespace EmzyController
         [Tooltip("The amount of fixed frames we buffer a jump. This allows jump input before actually hitting the ground")]
 
         public float JumpBufferWindow => jumpBufferWindow;
-        public float NeutralJumpThreshold => neutralJumpThreshold;
-        public float TiltSmoothTime => tiltSmoothTime;
-        public LayerMask ClimbLayer => climbLayer;
-        public float GroundingDistance => groundingDistance;
-        public float JumpTransitionTime => jumpTransitionTime;
-        #endregion
-        #region Conditions
-        private bool noAirJumps()
-        {
-            return MaxAirJumps <= 0;
-        }
+
+        public float MaxPlayerHealth => maxPlayerHealth;
+        public float MaxPlayerMana => maxPlayerMana;
         #endregion
     }
 }
