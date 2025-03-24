@@ -2085,11 +2085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_Size.x
-      value: 0.48038033
+      value: 0.6501834
       objectReference: {fileID: 0}
     - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_Size.y
-      value: 1
+      value: 1.781266
       objectReference: {fileID: 0}
     - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_Offset.x
@@ -2117,11 +2117,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.14
+      value: -9.25
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.42
+      value: -1.98
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2391,7 +2391,7 @@ Transform:
   m_GameObject: {fileID: 1562745439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.531, y: -2.122, z: 0}
+  m_LocalPosition: {x: 7.37, y: -1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2488,8 +2488,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.056508183}
-  m_Size: {x: 0.43001652, y: 1.6579733}
+  m_Offset: {x: 0, y: -0.15849209}
+  m_Size: {x: 1.0200465, y: 3.3926275}
   m_Direction: 0
 --- !u!50 &1562745446
 Rigidbody2D:
