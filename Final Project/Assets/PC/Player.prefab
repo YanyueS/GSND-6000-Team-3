@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 805908640771570019}
   - component: {fileID: 3823204501371632264}
   - component: {fileID: 3278183917256656458}
+  - component: {fileID: 248150274892774871}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -238,11 +239,14 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PerfectDodgeWindow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ManaCurrent","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Heal","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UIEventManager","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"stunned","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8631760107535722067}
     - {fileID: 11400000, guid: f228ee7f2321a5540a3a997fc42b498a, type: 2}
     - {fileID: 3922447410411358390}
+    - {fileID: 0}
 --- !u!114 &3370358504038445820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +347,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.025431447}
-  m_Size: {x: 1, y: 1.990786}
+  m_Size: {x: 0.6501834, y: 1.781266}
   m_Direction: 0
 --- !u!114 &805908640771570019
 MonoBehaviour:
@@ -393,6 +397,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: cfe4c1c701c4b564e8d8fd7bdc1535f1, type: 2}
+--- !u!114 &248150274892774871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115226050459695209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7aab9b86ea99cff4ebcd2d13eb43ef24, type: 2}
 --- !u!1 &3972670678476108257
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3514255341219010714}
   - component: {fileID: 3922447410411358390}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: SwordHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -459,6 +479,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.62010574, y: 0.01756382}
-  m_Size: {x: 2.5695953, y: 2.8638258}
+  m_Offset: {x: 0.40830362, y: -0.13069755}
+  m_Size: {x: 0.98107934, y: 1.1058682}
   m_Direction: 0

@@ -2394,42 +2394,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 805908640771570019, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 805908640771570019, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 805908640771570019, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[0]'
-      value: 
-      objectReference: {fileID: 11400000, guid: e4ee577e0b4fa43ecbdeac9ecc46bfa6, type: 2}
-    - target: {fileID: 969540587251319819, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerInput","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.InputSystem.PlayerInput,
-        Unity.InputSystem, Version=1.11.2.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerSettings","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"EmzyController.PlayerSettings,
-        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoveVector","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HP
-        Current","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DodgeSpeed","value":{"$content":30.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"immune?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BaseDamage","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Damage","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"SwordHitbox","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Collider2D,
-        UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DodgeDirection","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PerfectDodgeWindow","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ManaCurrent","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Heal","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UIEventManager","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"stunned","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 969540587251319819, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 969540587251319819, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
@@ -2437,58 +2401,6 @@ PrefabInstance:
     - target: {fileID: 1115226050459695209, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1115226050459695209, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Size.x
-      value: 0.6501834
-      objectReference: {fileID: 0}
-    - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Size.y
-      value: 1.781266
-      objectReference: {fileID: 0}
-    - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2367700692195053860, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.025431447
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823204501371632264, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._json
-      value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823204501371632264, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3823204501371632264, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[0]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 4288bcbef768a4210a98911de210e932, type: 2}
-    - target: {fileID: 3922447410411358390, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Size.x
-      value: 0.98107934
-      objectReference: {fileID: 0}
-    - target: {fileID: 3922447410411358390, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Size.y
-      value: 1.1058682
-      objectReference: {fileID: 0}
-    - target: {fileID: 3922447410411358390, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.40830362
-      objectReference: {fileID: 0}
-    - target: {fileID: 3922447410411358390, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.13069755
-      objectReference: {fileID: 0}
-    - target: {fileID: 3972670678476108257, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2533,16 +2445,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1115226050459695209, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1785238606}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
---- !u!1 &423180614 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1115226050459695209, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
-  m_PrefabInstance: {fileID: 419714687}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &528320213
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,22 +3537,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4332474089962158207, guid: 11e133301ac59c14aa6172046c6aa519, type: 3}
   m_PrefabInstance: {fileID: 419714687}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1785238606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423180614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 7aab9b86ea99cff4ebcd2d13eb43ef24, type: 2}
 --- !u!1 &2083869300
 GameObject:
   m_ObjectHideFlags: 0
