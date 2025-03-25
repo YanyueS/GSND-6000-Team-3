@@ -29,4 +29,4 @@ MonoBehaviour:
   coyoteTime: 0.2
   jumpBufferWindow: 0.5
   maxPlayerHealth: 100
-  maxPlayerMana: 10
+  maxPlayerMana: 5
