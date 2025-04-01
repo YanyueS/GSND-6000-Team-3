@@ -7,7 +7,7 @@ public class BossSettings : ScriptableObject
     [SerializeField] private float acceleration = 100;
     [SerializeField] private float groundDeceleration = 60;
     [SerializeField] private float airAcceleration = 30;
-    [SerializeField] private float airDeceleration = 30;
+    [SerializeField] private float airDeceleration = 100;
     [SerializeField] private float snapDistance = 0.1f;
     [SerializeField] private float groundingDistance = 0.1f;
     // [Header("JUMP")]
