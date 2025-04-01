@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 654eda2a996693d468d9f96bd9639b83
+guid: b72280672ef399741bd90817f69ed639
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5601435271057664650
-    second: c80e75b5ad701f61_0
+      213: 6929814024863328386
+    second: Bamboo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: c80e75b5ad701f61_0
+      name: Bamboo_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 18
-        width: 49
-        height: 67
+        x: 0
+        y: 0
+        width: 16
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 16}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67593447c44b342b0800000000000000
-      internalID: -5601435271057664650
+      spriteID: 288af7fc325ab2060800000000000000
+      internalID: 6929814024863328386
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4548c5399520ab848aeff0cff7a6d288
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      c80e75b5ad701f61_0: -5601435271057664650
+      Bamboo_0: 6929814024863328386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
