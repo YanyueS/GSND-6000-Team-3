@@ -1060,7 +1060,44 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boss_complete_sprites_0: -7257258893413003220
+      boss_complete_sprites_1: 406965790994443619
+      boss_complete_sprites_10: -6403769833685778870
+      boss_complete_sprites_11: 2492491861754822060
+      boss_complete_sprites_12: -1004480920968694272
+      boss_complete_sprites_13: -3353145482522938723
+      boss_complete_sprites_14: 4349252297405607201
+      boss_complete_sprites_15: -5578252311234626484
+      boss_complete_sprites_16: -6451806654048089154
+      boss_complete_sprites_17: 4917828905800137322
+      boss_complete_sprites_18: -1035550089114506245
+      boss_complete_sprites_19: -3684087185246904367
+      boss_complete_sprites_2: -6076118674792211476
+      boss_complete_sprites_20: 3665836167592100879
+      boss_complete_sprites_21: -8035847367940236558
+      boss_complete_sprites_22: -6571419376653490639
+      boss_complete_sprites_23: 3376928937762791622
+      boss_complete_sprites_24: 1657085507202957248
+      boss_complete_sprites_25: -2218730213231916568
+      boss_complete_sprites_26: 1552445753244414662
+      boss_complete_sprites_27: -2139195363298141739
+      boss_complete_sprites_28: 8367408619213867690
+      boss_complete_sprites_29: -8627725280005000682
+      boss_complete_sprites_3: -5130093376118028468
+      boss_complete_sprites_30: -7230670622863336128
+      boss_complete_sprites_31: 658412505506904362
+      boss_complete_sprites_32: -2854762704475655014
+      boss_complete_sprites_33: 1671598774384155762
+      boss_complete_sprites_34: 3795070425282656288
+      boss_complete_sprites_35: 355808651377372411
+      boss_complete_sprites_36: 1932535127771687287
+      boss_complete_sprites_4: -7354016692580269233
+      boss_complete_sprites_5: 731433609236299246
+      boss_complete_sprites_6: 6829263751910431163
+      boss_complete_sprites_7: 5837513440655937477
+      boss_complete_sprites_8: -5681064372589981701
+      boss_complete_sprites_9: 9124275154613146333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
