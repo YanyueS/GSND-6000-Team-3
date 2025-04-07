@@ -10063,7 +10063,7 @@ GameObject:
   - component: {fileID: 803038394}
   - component: {fileID: 803038393}
   m_Layer: 7
-  m_Name: Canvas
+  m_Name: BossCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10078,7 +10078,7 @@ RectTransform:
   m_GameObject: {fileID: 803038391}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6423, y: 1.6423, z: 1.6423}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1879372448}
@@ -10086,7 +10086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.6776, y: 2.1}
+  m_AnchoredPosition: {x: 10.89, y: 2.8}
   m_SizeDelta: {x: 6.7898, y: 2.6904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803038393
@@ -11595,7 +11595,7 @@ Transform:
   m_GameObject: {fileID: 1146524965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 3.25, z: 0}
+  m_LocalPosition: {x: -1.24, y: 5.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
