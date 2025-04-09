@@ -33,6 +33,7 @@ public class BossSettings : ScriptableObject
     // [Min(0)]
     // [SerializeField] private float jumpBufferWindow = 0.5f;
     [SerializeField] private float maxHealth = 100;
+    [SerializeField] private float phase2StartingHealth = 90;
 
     [SerializeField] private float playerMeleeProximity = 2;
 
@@ -40,6 +41,7 @@ public class BossSettings : ScriptableObject
 
     [SerializeField] private float bossAnalyzeDistance = 7;
     [SerializeField] private float bossDashTime = 1;
+    [SerializeField] private float bossProjectileSpeed = 30;
 
 
     public float MaxSpeed => maxSpeed;
@@ -59,6 +61,9 @@ public class BossSettings : ScriptableObject
     public float BossAnalyzeDistance => bossAnalyzeDistance;
 
     public float BossDashTime => bossDashTime;
+
+    public float BossProjectileSpeed => bossProjectileSpeed;
+    public float Phase2StartingHealth => phase2StartingHealth;
 
     // public int MaxAirJumps => maxAirJumps;
     // [Tooltip("strength of MidAir jump compared to grounded jump")]
