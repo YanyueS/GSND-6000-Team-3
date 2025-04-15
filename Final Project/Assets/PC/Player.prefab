@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 248150274892774871}
   - component: {fileID: 5632413749001637948}
   - component: {fileID: 4445495166883807595}
+  - component: {fileID: 2086921211925606115}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -89,7 +90,7 @@ SpriteRenderer:
   m_SortingLayerID: 411437729
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2215745761463138581, guid: d217bb73b8d67f0468ab7c7a2bcbcc2f, type: 3}
+  m_Sprite: {fileID: -8818438900337083723, guid: afc7c5688497ac0498aeef2812456dd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -209,6 +210,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 4a9d5c2c-550f-4b16-83bb-48f9ee79d870
     m_ActionName: 'Player/Attack[/Keyboard/j]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fb6b7e9f-b779-4d18-8133-672938ff0147
+    m_ActionName: 'Player/Heal[/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -528,6 +533,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2086921211925606115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115226050459695209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7aab9b86ea99cff4ebcd2d13eb43ef24, type: 2}
 --- !u!1 &3972670678476108257
 GameObject:
   m_ObjectHideFlags: 0
