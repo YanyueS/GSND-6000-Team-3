@@ -30,6 +30,6 @@ MonoBehaviour:
   jumpBufferWindow: 0.5
   maxPlayerHealth: 50
   maxPlayerMana: 10
-  healCost: 3
+  healCost: -3
   healAmount: 15
-  projectileCost: 1
+  projectileCost: -1
