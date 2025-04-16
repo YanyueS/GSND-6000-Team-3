@@ -21,8 +21,8 @@ MonoBehaviour:
   groundingDistance: 0.1
   maxFallSpeed: -40
   fallAcceleration: -110
-  maxHealth: 250
-  phase2StartingHealth: 120
+  maxHealth: 400
+  phase2StartingHealth: 250
   playerMeleeProximity: 2
   bossPhase1MeleeCooldown: 0.5
   bossAnalyzeDistance: 7
