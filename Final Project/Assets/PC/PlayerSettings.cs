@@ -40,11 +40,11 @@ namespace EmzyController
         [Tooltip("The amount of fixed frames we buffer a jump. This allows jump input before actually hitting the ground")]
         [Min(0)]
         [SerializeField] private float jumpBufferWindow = 0.5f;
-        [SerializeField] private float maxPlayerHealth = 100;
-        [SerializeField] private float maxPlayerMana = 100;
-        [SerializeField] private float healCost = 3;
+        [SerializeField] private float maxPlayerHealth = 50;
+        [SerializeField] private float maxPlayerMana = 10;
+        [SerializeField] private float healCost = -3;
         [SerializeField] private float healAmount = 15;
-        [SerializeField] private float projectileCost = 1;
+        [SerializeField] private float projectileCost = -1;
 
         public float MaxSpeed => maxSpeed;
         public float Acceleration => acceleration;
