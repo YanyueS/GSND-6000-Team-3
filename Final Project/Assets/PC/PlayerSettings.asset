@@ -28,5 +28,8 @@ MonoBehaviour:
   jumpCutSpeed: 0.3
   coyoteTime: 0.1
   jumpBufferWindow: 0.5
-  maxPlayerHealth: 100
+  maxPlayerHealth: 50
   maxPlayerMana: 10
+  healCost: 3
+  healAmount: 15
+  projectileCost: 1

@@ -42,7 +42,9 @@ namespace EmzyController
         [SerializeField] private float jumpBufferWindow = 0.5f;
         [SerializeField] private float maxPlayerHealth = 100;
         [SerializeField] private float maxPlayerMana = 100;
-
+        [SerializeField] private float healCost = 3;
+        [SerializeField] private float healAmount = 15;
+        [SerializeField] private float projectileCost = 1;
 
         public float MaxSpeed => maxSpeed;
         public float Acceleration => acceleration;
@@ -72,6 +74,10 @@ namespace EmzyController
 
         public float MaxPlayerHealth => maxPlayerHealth;
         public float MaxPlayerMana => maxPlayerMana;
+
+        public float HealCost => healCost;
+        public float HealAmount => healAmount;
+        public float ProjectileCost => projectileCost;
         #endregion
     }
 }
