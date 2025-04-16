@@ -26,7 +26,7 @@ MonoBehaviour:
   fallAcceleration: -80
   risingFallAcceleration: -70
   jumpCutSpeed: 0.3
-  coyoteTime: 0.2
+  coyoteTime: 0.1
   jumpBufferWindow: 0.5
   maxPlayerHealth: 100
-  maxPlayerMana: 5
+  maxPlayerMana: 10
