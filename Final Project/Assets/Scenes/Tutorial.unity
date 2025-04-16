@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 220133110}
   - component: {fileID: 220133109}
   m_Layer: 5
-  m_Name: C
+  m_Name: L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4773031513114947462, guid: 92f424ed50f794450a1cbe2bfd72c290, type: 3}
+  m_Sprite: {fileID: -4693932192084691647, guid: c14967048bffc423782daede2ae7c486, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15224,7 +15224,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.625
+  orthographic size: 4.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
